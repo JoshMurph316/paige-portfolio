@@ -1,8 +1,20 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.slider-container {
+    margin-top: 5%;
+    text-align: right;
 }
-
-a {
-  color: #00B7FF;
+.slider-link {
+    font-family: 'Zilla Slab', serif;
+    padding-right: 30px;
+    color: grey;
+    font-size: 1.7em;
+}
+.slider-link:hover {
+    color: #000;
+    text-decoration: none;
+}
+.left-slider {
+    text-align: left;
+}
+.fa-lg {
+    line-height: .5;
 }
