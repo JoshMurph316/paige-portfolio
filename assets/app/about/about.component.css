@@ -1,0 +1,24 @@
+.about-header {
+    font-family: 'Zilla Slab', serif;
+}
+.about-content {
+    color: grey;
+    font-family: 'Zilla Slab', serif;
+    line-height: 225%;
+}
+.about-img {
+    border-radius: 5px;
+}
+.skill-header {
+    font-family: 'Zilla Slab', serif;
+    font-size: 2em;
+    padding-left: 1%;
+    color: #ffb6c1;
+}
+.skill-list {
+    list-style-type: none;
+}
+.skill-list-item {
+    padding: 10px;
+    color: grey;
+}
