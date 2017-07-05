@@ -30,3 +30,13 @@
 .resume-link:hover {
     text-decoration: none;
 }
+.plug-container {
+    margin: 1% auto;
+    text-align: center;
+}
+.plug-logo {
+    color: grey;
+}
+.plug-logo:hover {
+    color: steelblue;
+}

@@ -1,13 +1,3 @@
 .main-container {
     padding: 0;
 }
-.plug-container {
-    margin: 1% auto;
-    text-align: center;
-}
-.plug-logo {
-    color: grey;
-}
-.plug-logo:hover {
-    color: steelblue;
-}

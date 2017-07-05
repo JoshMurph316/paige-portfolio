@@ -1,0 +1,19 @@
+.header-container {
+    padding:0 0 5% 5%;
+}
+.gallery-header {
+    color: slategray;
+    font-family: 'Lobster', cursive;
+    font-size: 3.2em;
+}
+.sub-header {
+    padding-left: 5%;
+    font-family: 'Zilla Slab', serif;
+    color: #707365;
+}
+.img-container {
+    padding: 3%;
+}
+.img-row {
+    padding: 2% 0;
+}
