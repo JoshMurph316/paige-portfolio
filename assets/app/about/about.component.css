@@ -1,5 +1,6 @@
 .about-header {
     font-family: 'Zilla Slab', serif;
+    color: #5E3831;
 }
 .about-content {
     padding-bottom: 5%;
@@ -17,7 +18,7 @@
     font-family: 'Zilla Slab', serif;
     font-size: 2em;
     padding-left: 1%;
-    color: #ffb6c1;
+    color: #5E3831;
 }
 .skill-list {
     list-style-type: none;

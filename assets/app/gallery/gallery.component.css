@@ -10,10 +10,11 @@
     color: #fff;
     background-color: #1a1a1a;
     padding: 10px;
+    transition: all 0.5s;
 }
 .btn-contact:hover {
     text-decoration: none;
-    background-color: #707365;
+    background-color: #708090;
 }
 .gallery-header {
     color: slategray;
