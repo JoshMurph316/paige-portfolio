@@ -1,0 +1,19 @@
+.contact-form {
+    padding-top: 50%;
+}
+.contact-lable {
+    color: grey;
+    font-size: 2em;
+    font-family: 'Zilla Slab', serif;
+}
+.contact-input {
+    border-radius: 0;
+}
+.btn-contact {
+    border: none;
+    font-family: 'Zilla Slab', serif;
+    color: #fff;
+    font-size: 1.4em;
+    background-color: grey;
+    padding: 10px;
+}

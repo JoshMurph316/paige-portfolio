@@ -1,0 +1,37 @@
+.contact-header {
+    font-size: 3em;
+    font-family: 'Zilla Slab', serif;
+}
+.contact-subheader {
+    color: grey;
+    font-family: 'Zilla Slab', serif;
+}
+.header-container {
+    text-align: right;
+}
+.contact-list {
+    list-style-type: none;
+}
+.contact-list-item {
+    padding-top: 3px;
+}
+.contact-soc-link {
+    color: grey;
+}
+.contact-soc-link:hover {
+    color: black;
+}
+
+.map-container {
+    text-align: right;
+}
+.map-header {
+    font-family: 'Zilla Slab', serif;
+    padding-bottom: 4%;
+    color: #ffb6c1;
+}
+.google-map {
+    border: 0;
+    width: 600px; 
+    height: 450px;
+}

@@ -2,9 +2,13 @@
     font-family: 'Zilla Slab', serif;
 }
 .about-content {
+    padding-bottom: 5%;
+}
+.about-text {
     color: grey;
     font-family: 'Zilla Slab', serif;
     line-height: 225%;
+    padding-left: 5%;
 }
 .about-img {
     border-radius: 5px;
@@ -17,6 +21,7 @@
 }
 .skill-list {
     list-style-type: none;
+    padding-left: 2%;
 }
 .skill-list-item {
     padding: 10px;

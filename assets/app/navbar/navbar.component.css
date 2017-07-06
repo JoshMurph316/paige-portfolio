@@ -26,6 +26,10 @@
     color: #90C4C1;
     transition: .6s;
 }
+.active-nav-link {
+    background-color: lightgrey;
+    border-radius: 5px;
+}
 .navbar-hr {
     border-color: #C9BFB3;
 }
