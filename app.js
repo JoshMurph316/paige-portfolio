@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
 var appRoutes = require('./routes/app');
+var imageRoutes = require('./routes/images');
 
 var app = express();
 mongoose.connect('mongodb://Joshmurph316:Space100@ds151202.mlab.com:51202/heroku_036tzcl3');
@@ -30,6 +31,7 @@ app.use(function(req, res, next) {
   next();
 });
 
+app.use('/gallery', imageRoutes);
 app.use('/', appRoutes);
 
 // catch 404 and forward to error handler

@@ -10,6 +10,11 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 export class ManagerComponent implements OnInit{
         userForm: FormGroup;
 
+        constructor() {
+            const staticUsername = '123test';
+            const staticPassword = 'test123';
+        }
+
     onSubmit() {
         console.log(this.userForm);
         this.userForm.reset();

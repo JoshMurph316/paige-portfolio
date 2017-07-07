@@ -1,23 +1,26 @@
-.form-container {
-    background-color: grey;
-    padding: 5%;
+
+.contact-label {
+    display: none;
+}
+.main-form {
+    padding: 10% 10% 10% 0;
 }
 .email-form {
-padding-bottom: 5px;
-}
-.contact-label {
-    color: #fff;
-    font-size: 1.5em;
+    padding: 2% 0;
 }
 .form-input {
-    border: none;
+    font-size: 1.5em;
     font-family: 'Zilla Slab', serif;
+    color: grey;
+    border-top: none;
+    border-right: none;
+    border-radius: 0;
 }
 .btn-form {
     border: none;
-    font-family: 'Zilla Slab', serif;
-    color: grey;
-    font-size: 1.4em;
-    background-color: #fff;
     padding: 10px;
+    color: #fff;
+    background-color: grey;
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.5em;
 }
