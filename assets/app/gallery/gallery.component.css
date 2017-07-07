@@ -17,7 +17,7 @@
     background-color: #708090;
 }
 .gallery-header {
-    color: slategray;
+    color: #708090;
     font-family: 'Lobster', cursive;
     font-size: 3.5em;
 }
@@ -26,12 +26,12 @@
     font-family: 'Zilla Slab', serif;
     color: #707365;
 }
-.img-row {
-    padding: 5% 0;
+.tab-links {
+    color: #707365;
+    font-size: 1.2em;
+    font-family: 'Zilla Slab', serif;
 }
-.img-container {
-    padding: 0 1%;
-}
-.btn-row {
-    text-align: right;
+.active-tab .tab-links{
+    background-color: #707365;
+    color: #fff;
 }

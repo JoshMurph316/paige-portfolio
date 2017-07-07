@@ -1,0 +1,21 @@
+.img-row {
+    padding: 5% 0;
+}
+.img-container {
+    padding: 0 1%;
+}
+.btn-row {
+    text-align: right;
+}
+.btn-contact {
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.9em;
+    color: #fff;
+    background-color: #1a1a1a;
+    padding: 10px;
+    transition: all 0.5s;
+}
+.btn-contact:hover {
+    text-decoration: none;
+    background-color: #708090;
+}
