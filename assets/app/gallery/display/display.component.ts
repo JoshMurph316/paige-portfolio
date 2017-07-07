@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 
+import { Image } from "./general-images/image.model";
+
+
 @Component({
     selector: 'app-display',
     templateUrl: 'display.component.html',
@@ -7,5 +10,7 @@ import { Component } from '@angular/core';
 })
 
 export class DisplayComponent {
-    
+    image: Image;
+
+
 }

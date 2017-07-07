@@ -1,31 +1,4 @@
-.header-container {
-    text-align: right;
-}
-.btn-container {
-    margin: 3% 0;
-}
-.btn-contact {
-    font-family: 'Zilla Slab', serif;
-    font-size: 1.9em;
-    color: #fff;
-    background-color: #1a1a1a;
-    padding: 10px;
-    transition: all 0.5s;
-}
-.btn-contact:hover {
-    text-decoration: none;
-    background-color: #708090;
-}
-.gallery-header {
-    color: #708090;
-    font-family: 'Lobster', cursive;
-    font-size: 3.5em;
-}
-.sub-header {
-    padding-bottom: 5px;
-    font-family: 'Zilla Slab', serif;
-    color: #707365;
-}
+
 .tab-links {
     color: #707365;
     font-size: 1.2em;
