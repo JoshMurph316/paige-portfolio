@@ -1,10 +1,18 @@
+.main-container {}
 
-.tab-links {
-    color: #707365;
-    font-size: 1.2em;
-    font-family: 'Zilla Slab', serif;
+.gallery-image {
+    max-height: 360px;
+    margin: auto;
 }
-.active-tab .tab-links{
-    background-color: #707365;
-    color: #fff;
+
+.image-col {
+    padding: 0 1px;
+}
+
+.img-row {
+    padding-top: 2%;
+}
+
+.img-container {
+    margin: auto;
 }
