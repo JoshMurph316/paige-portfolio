@@ -11,7 +11,7 @@ export class EmailService {
     registerEmail(email) {
         let headers = new Headers();
         headers.append('Content-Type', 'application/json');
-        return this.http.post('http://localhost:3000/contact/email', email, {headers: headers})
+        return this.http.post('/contact/email', email, {headers: headers})
             .map(res => res.json());
     }
 }
