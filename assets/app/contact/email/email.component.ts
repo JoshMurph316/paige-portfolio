@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl, Validators } from "@angular/forms";
+import { Router } from '@angular/router';
+
+import { EmailService } from './email.service';
 
 @Component({
     selector: 'app-email',
@@ -7,19 +9,32 @@ import { FormGroup, FormControl, Validators } from "@angular/forms";
     styleUrls: ['./email.component.css']
 })
 export class EmailComponent implements OnInit {
-    customerForm: FormGroup;
+  name: String;
+  email: String;
 
-    onSubmit() {
-        console.log(this.customerForm);
-        this.customerForm.reset();
+    constructor(private EmailService: EmailService, private router: Router) {}    
+
+    onEmailSubmit() {
+        console.log(this.name);
+        console.log(this.email);
+        const email = {
+            name: this.name,
+            email: this.email
+        }
+        console.log(email);
+        console.log(email.name);
+        console.log(email.email);
+        this.EmailService.registerEmail(email).subscribe(data => {
+            if(data.success){
+                console.log("email sent! to the back")
+                this.router.navigate(['/landing'])
+            } else {
+                console.log("we were unable to process")
+                this.router.navigate(['/landing'])
+            }
+        })
     }   
-    ngOnInit() {
-        this.customerForm = new FormGroup({
-            name: new FormControl(null, Validators.required),
-            email: new FormControl(null,[
-                Validators.required,
-                Validators.pattern(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)
-                ])
-        });
-    }
+    
+    ngOnInit() {}
+
 }

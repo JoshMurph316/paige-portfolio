@@ -14,6 +14,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { EmailComponent } from './contact/email/email.component';
+import { HttpModule } from "@angular/http";
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { EmailComponent } from './contact/email/email.component';
     BrowserModule,
     routing,
     FormsModule,
+    HttpModule,
     ReactiveFormsModule
   ],
   providers: [],

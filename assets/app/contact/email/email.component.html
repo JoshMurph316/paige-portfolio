@@ -1,28 +1,15 @@
 <div class="form-container container-fluid">
 
-    <form class="main-form" [formGroup]="customerForm" (ngSubmit)="onSubmit()">
+    <form class="main-form" (submit)="onEmailSubmit()">
         <div class="email-form form-group">
             <label class="contact-label" for="name">Name</label>
-            <input 
-                type="text" 
-                id="name" 
-                class="form-input form-control"
-                placeholder="name"
-                formControlName="name">
+            <input [(ngModel)]="name" name="name" type="text" id="name" class="form-input form-control" placeholder="name">
         </div>
         <div class="email-form form-group">
             <label class="contact-label" for="email">Email</label>
-            <input 
-                type="email" 
-                id="password" 
-                class="form-input form-control"
-                placeholder="email"
-                formControlName="email">
+            <input [(ngModel)]="email" name="email" type="email" id="password" class="form-input form-control" placeholder="@email">
         </div>
-        <button 
-            type="submit" 
-            class="btn-form"
-            [disabled]="!customerForm.valid">Submit <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+        <button type="submit" value="Submit" class="btn-form">Submit <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
     </form>
 
 </div>
