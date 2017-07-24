@@ -3,13 +3,14 @@ import { Routes, RouterModule } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { GalleryComponent } from './gallery/gallery.component';
-import { LandingComponent } from './landing/landing.component';
-import { GALLERY_ROUTES } from "./gallery/gallery.routes";
+import { HomeComponent } from './home/home.component';
+import { ServicesComponent } from "./services/services.component";
 
 const APP_ROUTES: Routes = [
-    { path: '', redirectTo:'/landing', pathMatch: 'full'},
-    { path: 'landing', component: LandingComponent },
-    { path: 'gallery', component: GalleryComponent, children: GALLERY_ROUTES },
+    { path: '', redirectTo:'/home', pathMatch: 'full'},
+    { path: 'home', component: HomeComponent },
+    { path: 'gallery', component: GalleryComponent },
+    { path: 'services', component: ServicesComponent },
     { path: 'about', component: AboutComponent },
     { path: 'contact', component: ContactComponent }
 ]

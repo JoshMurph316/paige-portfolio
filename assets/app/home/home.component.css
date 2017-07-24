@@ -1,0 +1,49 @@
+.img-text {
+    margin-top: 3%;
+    color: #707365;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
+.bio-container {
+    margin-top: 8%;
+    text-align: right;
+}
+.bio-header {
+    font-family: 'Zilla Slab', serif;
+    font-size: 3.5em;
+}
+.info-row {
+    margin-left: 35%;
+    padding-right: 5%;
+}
+.info-header {
+    color: #ffb6c1;
+    font-size: 2.2em;
+    font-family: 'Lobster', cursive;
+}
+.info-text {
+    color: #707365;
+    font-size: 1.3em;
+    font-family: 'Zilla Slab', serif;
+}
+.info-hr {
+    border-color: #90C4C1;
+}
+.contact_link-container {
+    margin: 25px 1%;
+}
+.contact_link {
+    font-family: 'Zilla Slab', serif;
+    background: none;
+    transition: all 0.5s;
+    padding: 15px;
+    color: #fff;
+    font-size: 2.4rem;
+    background-color: #547A7E;
+}
+.contact_link:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ffb6c1;
+}
+

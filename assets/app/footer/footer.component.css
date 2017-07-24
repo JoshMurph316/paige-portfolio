@@ -1,42 +1,49 @@
-
 .footer-container {
     margin-top: 0;
     text-align: center;
-    background-color:#707365;
+    background-color: #707365;
     padding: 25px 0px;
 }
+
 .right-footer {
     text-align: right;
     padding-right: 0;
 }
+
 .soc-link {
     font-size: 1.5em;
     color: #90C4C1;
-    padding-right: 4%;
+    margin-right: 5%;
     -webkit-transition: all 0.9s;
     -moz-transition: all 0.9s;
     transition: all 0.9s;
 }
+
 .soc-link:hover {
     font-size: .9em;
     color: #ffb6c1;
     text-decoration: none;
 }
+
 .resume-link {
-    color:#000;
+    color: #000;
     background-color: #C9BFB3;
     padding: 10px 15px;
 }
+
 .resume-link:hover {
     text-decoration: none;
 }
+
 .plug-container {
     margin: 1% auto;
     text-align: center;
 }
+
 .plug-logo {
     color: grey;
 }
+
 .plug-logo:hover {
     color: #547A7E;
 }

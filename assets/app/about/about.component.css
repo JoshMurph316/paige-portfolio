@@ -1,30 +1,56 @@
+.about-container {
+    padding-top: 3%;
+}
+
 .about-header {
     font-family: 'Zilla Slab', serif;
     color: #5E3831;
+    font-size: 3.5em;
+    margin-top: 0;
 }
+
 .about-content {
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
+
 .about-text {
-    color: grey;
+    color: #4d4d4d;
     font-family: 'Zilla Slab', serif;
-    line-height: 225%;
+    line-height: 185%;
     padding-left: 5%;
+    font-size: 1.3em;
 }
-.about-img {
-    border-radius: 5px;
+
+.skills-row {
+    padding-bottom: 3%;
 }
+
 .skill-header {
     font-family: 'Zilla Slab', serif;
     font-size: 2em;
     padding-left: 1%;
     color: #5E3831;
 }
+
 .skill-list {
     list-style-type: none;
-    padding-left: 2%;
+    padding-left: 6%;
 }
+
 .skill-list-item {
-    padding: 10px;
-    color: grey;
+    padding: 7px;
+    color: #4d4d4d;
+}
+
+.subheader {
+    font-size: 1.5em;
+}
+
+.ig-link {
+    color: #000;
+}
+
+.ig-link:hover {
+    color: #5E3831;
+    text-decoration: none;
 }

@@ -18,13 +18,15 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li routerLinkActive="active-nav-link">
-                    <a class="navbar-links" [routerLink]="['/landing']">Home</a></li>
+                    <a class="navbar-links" [routerLink]="['/home']">Home</a></li>
                 <li routerLinkActive="active-nav-link">
-                    <a class="navbar-links" [routerLink]="['/gallery']" (click)="onGallery()">Gallery</a></li>
+                    <a class="navbar-links" [routerLink]="['/gallery']">Gallery</a></li>
+                <!-- <li routerLinkActive="active-nav-link">
+                    <a class="navbar-links" [routerLink]="['/services']">Services</a></li> -->
                 <li routerLinkActive="active-nav-link">
-                    <a class="navbar-links" [routerLink]="['/about']" (click)="onAbout()">About</a></li>
+                    <a class="navbar-links" [routerLink]="['/about']">About</a></li>
                 <li routerLinkActive="active-nav-link">
-                    <a class="navbar-links" [routerLink]="['/contact']" (click)="onContact()">Contact</a></li>
+                    <a class="navbar-links" [routerLink]="['/contact']">Contact</a></li>
             </ul>
         </div>
         <hr class="navbar-hr">

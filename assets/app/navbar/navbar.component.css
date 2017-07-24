@@ -1,16 +1,24 @@
 /*Blush Pink -- #fec5e5*/
+
 .navbar {
     border: none;
     margin-bottom: 5%;
 }
+
+.navbar-default {
+    background-color: #fff;
+}
+
 .navbar-container {
     text-align: center;
 }
+
 .navbar-title {
     text-align: left;
     font-family: 'Zilla Slab', serif;
     margin-bottom: 0;
 }
+
 .navbar-subtitle {
     font-family: 'Dancing Script', cursive;
     color: #ffb6c1;
@@ -18,18 +26,22 @@
     margin: 0;
     text-align: center;
 }
+
 .navbar-links {
     font-size: 1.5em;
     font-family: 'Zilla Slab', serif;
 }
+
 .nav .navbar-links:hover {
     color: #90C4C1;
     transition: .6s;
 }
+
 .active-nav-link {
     background-color: lightgrey;
     border-radius: 5px;
 }
+
 .navbar-hr {
     border-color: #C9BFB3;
 }
