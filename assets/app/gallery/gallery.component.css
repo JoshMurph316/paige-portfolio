@@ -1,16 +1,21 @@
-.gallery-image {
-    max-height: 360px;
-    margin: auto;
+.masonry {
+    column-count: 1;
 }
 
-.image-col {
-    padding: 0 1px;
+@media only screen and (min-width: 400px) {
+    .masonry {
+        column-count: 2;
+        column-gap: .2em;
+    }
 }
 
-.img-row {
-    padding-top: 2%;
+.img-item {
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+    padding-bottom: 1px;
 }
 
-.img-container {
-    margin: auto;
+.images {
+    margin-bottom: 1px;
 }

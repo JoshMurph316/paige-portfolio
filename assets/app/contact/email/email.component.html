@@ -1,15 +1,20 @@
-<div class="form-container container-fluid">
+<div class="col-md-5 form-container">
+
+    <p class="contact-text">Contact Me:</p>
+    <p class="contact-text">pmillerschoen@yahoo.com </p>
+
 
     <form class="main-form" (submit)="onEmailSubmit()">
-        <div class="email-form form-group">
+        <div class="email-form">
             <label class="contact-label" for="name">Name</label>
             <input [(ngModel)]="name" name="name" type="text" id="name" class="form-input" placeholder="name">
         </div>
-        <div class="email-form form-group">
+        <div class="email-form">
             <label class="contact-label" for="email">Email</label>
-            <input [(ngModel)]="email" name="email" type="email" id="password" class="form-input" placeholder="@email">
+            <input [(ngModel)]="email" name="email" type="email" id="password" class="form-input" placeholder="email">
         </div>
         <button type="submit" value="Submit" class="btn-form">Submit <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
     </form>
+
 
 </div>

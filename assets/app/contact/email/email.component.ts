@@ -13,28 +13,22 @@ export class EmailComponent implements OnInit {
   email: String;
 
     constructor(private EmailService: EmailService, private router: Router) {}    
+    ngOnInit() {}
 
     onEmailSubmit() {
-        console.log(this.name);
-        console.log(this.email);
+
         const email = {
             name: this.name,
             email: this.email
         }
-        console.log(email);
-        console.log(email.name);
-        console.log(email.email);
         this.EmailService.registerEmail(email).subscribe(data => {
             if(data.success){
-                console.log("email sent! to the back")
                 this.router.navigate(['/landing'])
             } else {
-                console.log("we were unable to process")
                 this.router.navigate(['/landing'])
             }
-        })
+        });
     }   
     
-    ngOnInit() {}
 
 }

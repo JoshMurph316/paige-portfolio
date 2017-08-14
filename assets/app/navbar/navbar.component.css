@@ -22,7 +22,7 @@
 .navbar-subtitle {
     font-family: 'Dancing Script', cursive;
     color: #ffb6c1;
-    font-size: 2.1em;
+    font-size: 3em;
     margin: 0;
     text-align: center;
 }
@@ -33,15 +33,26 @@
 }
 
 .nav .navbar-links:hover {
-    color: #90C4C1;
+    color: #547A7E;
     transition: .6s;
-}
-
-.active-nav-link {
-    background-color: lightgrey;
-    border-radius: 5px;
 }
 
 .navbar-hr {
     border-color: #C9BFB3;
+}
+
+
+/**/
+
+.underline {
+    transition: .5s all ease-in-out;
+    width: 0;
+    margin: auto;
+}
+
+.active-nav-link .underline {
+    padding: 1px 5px;
+    background-color: #688F96;
+    width: 40%;
+    margin: auto;
 }
