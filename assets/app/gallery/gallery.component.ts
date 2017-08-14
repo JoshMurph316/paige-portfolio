@@ -10,6 +10,7 @@ export class GalleryComponent {
     images:string[] = [
         "/images/paige-open.jpg",
         "/images/hand-up.jpg",
+        "/images/wet-eyes.jpg",
         "/images/about-light.jpg",
         "/images/red-side.jpg",
         "/images/upper-profile.jpg",
@@ -24,10 +25,8 @@ export class GalleryComponent {
         "/images/paige-down.jpg",
         "/images/red-close.jpg",
         "/images/double2.jpg",
-        "/images/selfie-outside.jpg",
         "/images/sam-far.jpg",
         "/images/double1.jpg",
-        "/images/wet-eyes.jpg",
         "/images/side-head.jpg",
         "/images/selfie-inside.jpg",
     ];
