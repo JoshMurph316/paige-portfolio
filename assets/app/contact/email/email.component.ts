@@ -13,10 +13,11 @@ export class EmailComponent implements OnInit {
   email: String;
 
     constructor(private EmailService: EmailService, private router: Router) {}    
-    ngOnInit() {}
+    ngOnInit() {
+
+    }
 
     onEmailSubmit() {
-        
         const email = {
             name: this.name,
             email: this.email
