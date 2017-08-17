@@ -9,14 +9,10 @@ import { EmailService } from "./email/email.service";
   providers: [EmailService]
 })
 export class ContactComponent implements OnInit {
-  moreInfo = 'no';
 
   constructor() { }
 
   ngOnInit() {
-  }
-  onMoreInfo() {
-    this.moreInfo = this.moreInfo === 'yes' ? 'no' : 'yes';
   }
 
 }
