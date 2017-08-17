@@ -11,14 +11,14 @@ router.post('/email', function(req, res, next) {
     });
     Email.addEmail(newEmail, (err, email) => {
         if (err) {
-            res.json({ success: false, msg: 'failed to register user' })
+            res.json({ success: false, msg: 'failed to register user' });
         } else {
             res.json({ success: true, msg: 'Email successfully sent' });
         }
     });
     const fromEmail = new helper.Email(mailer.fromEmail);
     const toEmail = new helper.Email(mailer.toEmail);
-    const subject = 'You have a new customer';
+    const subject = 'Hey Paige, you have a new customer';
     const content = new helper.Content('text/plain', 'Here is the Name: ' + newEmail.name + ' and Email: ' + newEmail.email);
     const mail = new helper.Mail(fromEmail, subject, toEmail, content);
 

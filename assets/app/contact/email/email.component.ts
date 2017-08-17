@@ -16,16 +16,16 @@ export class EmailComponent implements OnInit {
     ngOnInit() {}
 
     onEmailSubmit() {
-
+        
         const email = {
             name: this.name,
             email: this.email
         }
         this.EmailService.registerEmail(email).subscribe(data => {
             if(data.success){
-                this.router.navigate(['/home'])
+                this.router.navigate(['/home']);
             } else {
-                this.router.navigate(['/home'])
+                this.router.navigate(['/home']);
             }
         });
     }   
