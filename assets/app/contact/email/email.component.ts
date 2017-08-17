@@ -23,9 +23,9 @@ export class EmailComponent implements OnInit {
         }
         this.EmailService.registerEmail(email).subscribe(data => {
             if(data.success){
-                this.router.navigate(['/landing'])
+                this.router.navigate(['/home'])
             } else {
-                this.router.navigate(['/landing'])
+                this.router.navigate(['/home'])
             }
         });
     }   
