@@ -1,0 +1,16 @@
+.img-text {
+    margin-top: 3%;
+    color: #707365;
+    font-size: 1.5em;
+}
+
+.text-col {
+    margin-bottom: 50px;
+}
+
+.author {
+    text-align: right;
+    color: #515151;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.9em;
+}
